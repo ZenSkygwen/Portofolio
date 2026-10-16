@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vessel Gallery - ShipDecKK Maritime Collection</title>
+    <link rel="website icon" type="image/png" href="Refensi gambar AOL HCI/logo shipdeckk'.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .category-filter-bar {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            margin: -30px auto 50px auto;
+            position: relative;
+            z-index: 10;
+            flex-wrap: wrap;
+            padding: 0 20px;
+        }
+        .filter-pill {
+            padding: 12px 26px;
+            background: #ffffff;
+            color: var(--ocean-navy);
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: var(--radius-full);
+            box-shadow: var(--shadow-card);
+            border: 1px solid var(--border-light);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all var(--transition-fast);
+        }
+        .filter-pill:hover, .filter-pill.active {
+            background: linear-gradient(135deg, var(--ocean-navy), var(--ocean-blue));
+            color: #ffffff;
+            border-color: transparent;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-hover);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo-container">
+            <img src="Refensi gambar AOL HCI/logo shipdeckk'.png" alt="Logo Shipdeckk" class="logo">
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="navigation"> 
+            <a href="index.html">Home</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="service.html">Service</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="subscription.html">Subscription</a>
+        </nav>
+    </header>
+
+    <!-- Gallery Hero Banner -->
+    <section class="Header_photo">
+        <img src="Refensi gambar AOL HCI/4223_3ba0f.jpg" alt="Vessels sailing in crystal ocean">
+        <div class="hero-overlay">
+            <span class="hero-badge">⚓ Fleet Portfolio</span>
+            <h1 class="hero-title">Find Your Dream Vessel</h1>
+            <p class="hero-subtitle">Discover our world-renowned catalog spanning ultra-heavy cargo carriers, bespoke high-end yachts, and majestic luxury liners.</p>
+        </div>
+    </section>
+
+    <!-- Category Filter Bar -->
+    <div class="category-filter-bar">
+        <a href="#cargo-ships" class="filter-pill">📦 Cargo Ships</a>
+        <a href="#high-end-yachts" class="filter-pill">🛥️ High-End Yachts</a>
+        <a href="#luxury-liners" class="filter-pill">🚢 Luxury Liners</a>
+    </div>
+
+    <!-- ==================== SECTION 1: CARGO SHIPS ==================== -->
+    <section class="container section-spacing" id="cargo-ships">
+        <div class="section-header">
+            <span class="section-tag">Heavy Maritime Commerce</span>
+            <h2 class="section-title">Cargo Ships</h2>
+            <p class="section-desc">Intercontinental cargo workhorses built for maximum freight capacity, fuel economy, and enduring open-ocean reliability.</p>
+        </div>
+
+        <div class="CargoShip-grid">
+            <!-- Cargo 1 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/cargo ships 1.webp" alt="M.S. Titan V" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">M.S. Titan V</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Crew" class="iconpeople2">
+                            <p>20-25 Crew</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>17 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$988,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>230 m</p>
+                        </div>
+                    </div>
+                    <p>Modern cargo carrier designed for international oceans. Measuring 230m with 80,000 tons capacity, powered by a high-performance diesel engine with advanced satellite navigation.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Cargo 2 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/cargo ships 2.jpeg" alt="S.S. Felix 500" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">S.S. Felix 500</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Crew" class="iconpeople2">
+                            <p>20-24 Crew</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>18 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$999,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>210 m</p>
+                        </div>
+                    </div>
+                    <p>Built for long-distance global trade routes. With 65,000 tons cargo capacity, automated engine telemetry, and low emission design for sustainable global shipping.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Cargo 3 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/cargo ships 3.jpeg" alt="XY Titanic" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">XY Titanic</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Crew" class="iconpeople2">
+                            <p>25-30 Crew</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>19 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$1,568,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>250 m</p>
+                        </div>
+                    </div>
+                    <p>Heavy-duty freight vessel measuring 250m in length with 90,000 tons capacity. Reinforced hull structures engineered for harsh ocean weather conditions and long voyages.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Cargo 4 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/cargo ships 4.webp" alt="Sea Monster 7600" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Sea Monster 7600</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Crew" class="iconpeople2">
+                            <p>30-32 Crew</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>19 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$1,968,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>270 m</p>
+                        </div>
+                    </div>
+                    <p>Next-generation freight vessel at 270m length with 100,000 tons capacity. Equipped with dual-fuel hybrid propulsion and smart AI navigation aids.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Cargo 5 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/cargo ships 5.jpeg" alt="KF E45 Max" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">KF E45 Max</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Crew" class="iconpeople2">
+                            <p>19-22 Crew</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>19.65 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$976,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>200 m</p>
+                        </div>
+                    </div>
+                    <p>Built for speed and agile freight logistics. 60,000 tons capacity with composite hull enhancements delivering faster port turnaround times.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Cargo 6 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/kargo ship 6.jpg" alt="EverGreen Ace" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">EverGreen Ace</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Crew" class="iconpeople2">
+                            <p>19-23 Crew</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>16 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$1,110,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>232 m</p>
+                        </div>
+                    </div>
+                    <p>State-of-the-art container vessel delivering optimal freight protection and efficient maritime transport across premier international corridors.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 2: HIGH-END YACHTS ==================== -->
+    <section class="container section-spacing" id="high-end-yachts">
+        <div class="section-header">
+            <span class="section-tag">Pure Opulence</span>
+            <h2 class="section-title">High-End Yachts</h2>
+            <p class="section-desc">Bespoke luxury superyachts crafted with private cinemas, helipads, spas, and opulent personalized architecture.</p>
+        </div>
+
+        <div class="CargoShip-grid">
+            <!-- Yacht 1 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/HIgh end yachts.jpeg" alt="Aquilla Serenity 110" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Aquilla Serenity 110</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Guests" class="iconpeople2">
+                            <p>30-36 Guests</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>21 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$240,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>99 m</p>
+                        </div>
+                    </div>
+                    <p>A cutting-edge 99m superyacht featuring wellness spa, private cinema, infinity-edge pool, sky lounge with 360° ocean views, and integrated helipad.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Yacht 2 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/High end yachts.jpg" alt="Oceanis Vela 88" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Oceanis Vela 88</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Guests" class="iconpeople2">
+                            <p>20-26 Guests</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>18 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$170,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>88 m</p>
+                        </div>
+                    </div>
+                    <p>Harmonizes adventure with luxury: panoramic dining, custom wine cellar, sundeck hot tub with retractable sunroof, and ultra-quiet stabilization.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Yacht 3 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/High end yachts 2.jpeg" alt="Celestia Nova 95" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Celestia Nova 95</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Guests" class="iconpeople2">
+                            <p>25-30 Guests</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>20 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$200,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>95 m</p>
+                        </div>
+                    </div>
+                    <p>A floating palace featuring a two-level atrium lounge, glass-ceiling dining hall, art gallery, fitness suite, and open-air aft cinema.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Yacht 4 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/high end yahcts 4.jpg" alt="Lusso Mirage 78" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Lusso Mirage 78</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Guests" class="iconpeople2">
+                            <p>18-22 Guests</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>19 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$1,450,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>78 m</p>
+                        </div>
+                    </div>
+                    <p>Minimalist Italian aesthetics, floor-to-ceiling panoramic windows, shaded cocktail bar, heated jacuzzi, and sea-level private beach club.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Yacht 5 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/high end yachts 5.webp" alt="Titanis Crown 120" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Titanis Crown 120</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Guests" class="iconpeople2">
+                            <p>30-40 Guests</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>23 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$290,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>79 m</p>
+                        </div>
+                    </div>
+                    <p>Flagship royalty vessel offering grand ballroom, indoor pool, private elevators, executive communications suite, and unparalleled prestige.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Yacht 6 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/high end yachts 6.jpg" alt="Orion Majesty 102" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Orion Majesty 102</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Guests" class="iconpeople2">
+                            <p>28-32 Guests</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>20 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$221,230,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>92 m</p>
+                        </div>
+                    </div>
+                    <p>Equipped with marble finishes, dual-deck master terrace, retractable infinity roof, and tender garage for high-speed water toys.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION 3: LUXURY LINERS ==================== -->
+    <section class="container section-spacing" id="luxury-liners">
+        <div class="section-header">
+            <span class="section-tag">Grand Oceanic Travel</span>
+            <h2 class="section-title">Luxury Liners</h2>
+            <p class="section-desc">Grand commercial liners offering world-class hospitality, gourmet dining venues, theatrical entertainment, and scenic voyages.</p>
+        </div>
+
+        <div class="CargoShip-grid">
+            <!-- Liner 1 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/lux lin 1.jpg" alt="Ocean Belle 210" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Ocean Belle 210</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Passengers" class="iconpeople2">
+                            <p>1,250 Pass.</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>22 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$640,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>210 m</p>
+                        </div>
+                    </div>
+                    <p>Ten passenger decks with oceanview cabins, theatrical auditoriums, international dining, and advanced stabilizers for transatlantic voyages.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Liner 2 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/lux lin 2.jpeg" alt="Marina Crown 198" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Marina Crown 198</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Passengers" class="iconpeople2">
+                            <p>1,100 Pass.</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>21.5 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$580,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>198 m</p>
+                        </div>
+                    </div>
+                    <p>Versatile liner capable of docking in boutique ports. Central atrium, curated art gallery, and panoramic sundecks tailored for families and couples.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Liner 3 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/lux lin 3.jpg" alt="Celestial Horizon 225" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Celestial Horizon 225</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Passengers" class="iconpeople2">
+                            <p>1,600 Pass.</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>23 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$690,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>225 m</p>
+                        </div>
+                    </div>
+                    <p>Expansive glass architecture, rooftop lounges, stargazing observatory dome, and customized smart cabins for world-voyage discoveries.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Liner 4 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/lux lin 4.jpg" alt="Golden Vista 184" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Golden Vista 184</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Passengers" class="iconpeople2">
+                            <p>950 Pass.</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>20 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$470,450,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>184 m</p>
+                        </div>
+                    </div>
+                    <p>Intimate luxury cruise experience with mahogany wood accents, classic library, piano bar, and open-ocean meditation deck.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Liner 5 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/lux lin 5.jpeg" alt="Aurora Sapphire 240" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Aurora Sapphire 240</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Passengers" class="iconpeople2">
+                            <p>1,850 Pass.</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>24 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$710,000,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>240 m</p>
+                        </div>
+                    </div>
+                    <p>Non-stop oceanic excitement with water parks, cinema domes, culinary classes, and grand suites featuring private hot tubs and butler service.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+
+            <!-- Liner 6 -->
+            <div class="soldyacht">
+                <div class="card-image-wrap">
+                    <img src="Refensi gambar AOL HCI/lux lin 6.jpg" alt="Regal Tide 205" class="yachts">
+                </div>
+                <div class="card-content">
+                    <h3 class="yachtname">Regal Tide 205</h3>
+                    <div class="infoyacht">
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/Logo orang.png" alt="Passengers" class="iconpeople2">
+                            <p>1,300 Pass.</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/speedometer-icon-illustration-png.webp" alt="Speed" class="iconspeed2">
+                            <p>22.5 Knots</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/664936_sign_512x512.png" alt="Price" class="icondollar2">
+                            <p>$661,530,000</p>
+                        </div>
+                        <div class="spec-item">
+                            <img src="Refensi gambar AOL HCI/meteran-1024.webp" alt="Length" class="iconmeter2">
+                            <p>205 m</p>
+                        </div>
+                    </div>
+                    <p>Sophisticated liner tailored for conferences, corporate summits, and private leisure with world-class hospitality and gourmet dining.</p>
+                    <a href="subscription.html" class="card-btn">Inquire Vessel →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="contact_us">
+                <h3>Contact Us</h3>
+                <p>📍 
+                    <a href="https://www.google.com/maps/place/La Ciotat, France" target="_blank" rel="noopener noreferrer">
+                        La Ciotat, France
+                    </a>
+                </p>
+                <p>📞 
+                    <a href="tel:+1234567890">
+                        +1 234 567 890
+                    </a>
+                </p>
+                <p>📧 
+                    <a href="mailto:info@shipdeckk.com">
+                        info@shipdeckk.com
+                    </a>
+                </p>
+            </div>
+
+            <div class="closing">
+                <div class="footer-brand">ShipDecKK</div>
+                <p>ShipDecKK is your trusted partner in luxury yachts and commercial vessels. Delivering excellence in design, performance, and maritime service since 2020.</p>
+                <p class="copyright">© 2023 ShipDecKK. All rights reserved.</p>
+            </div>
+
+            <div class="follow_us">
+                <h3>Follow Us</h3>
+                <div class="iconsosmed">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="Refensi gambar AOL HCI/icons8-instagram-48.png" alt="Instagram" class="igicon">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <img src="Refensi gambar AOL HCI/icons8-youtube-32.png" alt="YouTube" class="yticon">
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <img src="Refensi gambar AOL HCI/icons8-twitter-bird-50.png" alt="Twitter" class="twiticon">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <img src="Refensi gambar AOL HCI/icons8-facebook-48.png" alt="Facebook" class="fbicon">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <img src="Refensi gambar AOL HCI/icons8-linked-in-50.png" alt="LinkedIn" class="liicon">
+                    </a>
+                    <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                        <img src="Refensi gambar AOL HCI/icons8-tiktok-50.png" alt="TikTok" class="tticon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="java.js"></script>
+</body>
+</html>
